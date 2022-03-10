@@ -94,6 +94,9 @@ body {
   .container {
     width: 40%;
   }
+  .container .adviceID{
+    font-size: 28px;
+  }
   .container .divider {
     width: 90%;
   }
