@@ -4,7 +4,7 @@ const adviceID = document.querySelector('.adviceID');
 
 
 async function getAdvice() {
-    let res = await fetch('https://api.adviceslip.com/advice')
+    let res = await fetch('https://api.adviceslip.com/advice', {cache: "no-cache"})
         .catch((err) => {
             console.error(err);
         });
